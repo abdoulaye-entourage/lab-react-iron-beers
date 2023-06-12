@@ -1,0 +1,59 @@
+.allbeers {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    margin: auto;
+    border-bottom: 1px solid gray;
+    gap: 2rem;
+    padding: 15px;
+    box-shadow: 0 0 10px 2px lightgray;
+
+}
+.allbeers > .beerImage {
+   width: 50px;
+}
+.beersInfo {
+    display: flex;
+    flex-direction: column;
+}
+.tagline{
+    color: rgb(142, 137, 137);
+}
+.contribution {
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+}
+.moreDetails > button{
+    padding: 7px;
+    width: 6rem;
+    border-radius: 10px;
+    border: none;
+    
+}
+.moreDetails > button:hover {
+    color: white;
+    background-color: rgb(50, 46, 46);
+    transition: 1s ease-in-out;
+}
+
+/* search input */
+
+.searchInput {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  gap: 10px;
+}
+.searchInput > input {
+    border: 1px solid ;
+    padding: 5px;
+    text-align: center;
+    width: 40%;
+
+}
+.searchInput > label {
+    font-weight: bold;
+    font-size: 20px;
+}

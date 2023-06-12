@@ -1,0 +1,12 @@
+/* .header {
+} */
+.divLink {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(165, 213,255);
+    text-align: center;
+}
+
+.divLink > img {
+    width: 50px;
+}

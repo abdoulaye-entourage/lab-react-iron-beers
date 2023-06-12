@@ -1,0 +1,4 @@
+.jokes {
+    display: flex;
+    flex-direction: column;
+}

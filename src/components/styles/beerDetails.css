@@ -1,0 +1,56 @@
+.beerDetailContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 40%;
+    box-shadow: 0 0 10px 2px lightgray;
+    margin: auto;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+}
+.greyColor {
+    color: rgb(133, 129, 129);
+}
+section > .blackColor {
+    color: #000;
+}
+.beerDetailContainer > .imgDetail{
+    width: 50px;
+    height: 15rem;
+    margin: auto;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    min-width: 15%;
+    flex-wrap: wrap;
+
+}
+.detailsPart1 {
+    display: flex;
+    justify-content: space-between;
+}
+.bigFont {
+    font-weight: bold;
+    font-size: 18px;
+}
+.backButton {
+    display: block;
+    text-align: center;
+    margin: 10px; 
+    height: 50px; 
+}
+.backButton > button {
+    padding: 7px;
+    width: 10rem;
+    border-radius: 10px;
+   border: none;
+}
+.backButton > button:hover {
+    color: white;
+    background-color: rgb(40, 38, 38);
+    transition: 1.5s ease-in-out;
+}

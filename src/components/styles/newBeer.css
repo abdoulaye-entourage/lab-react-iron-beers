@@ -1,0 +1,28 @@
+.new-beeer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    height: 550px;
+    margin: auto;
+    background-color: rgb(235, 234, 234);
+    padding: 20px;
+}
+input {
+    border-radius: 10px;
+    border-color: transparent;
+}
+button {
+    width: 50%;
+    align-self: center;
+    border-radius: 10px;
+    background-color: rgb(125, 187, 249);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+.new-beeer > #description {
+   height: 30rem;
+}
